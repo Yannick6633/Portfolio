@@ -19,41 +19,6 @@ body {
 NAVBAR =================================================
 */
 
-.header {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    height: 70px;
-    line-height: 70px;
-    background-color:rgba(194, 38, 38, 0);
-    position: fixed;
-    top: 0;
-    z-index: 999;
-}
-
-.header .header-logo {
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    float: left;
-    margin-left: 30px;
-}
-
-.header .header-menu {
-    float: right;
-    margin-right: 30px;
-}
-
-.header .header-menu a {
-    margin-right: 15px;
-    color: #141212;
-}
-
-.header .header-menu a:hover {
-    color: #e67e22;
-}
-
-/*---------- Navbar ----------*/
-
 .nav-gauche {
     width: 300px;
     height: 100vh;
