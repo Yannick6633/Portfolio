@@ -1,5 +1,5 @@
 
-*, ::before, ::after {
+/**, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     font-family: 'Poppins', sans-serif;
     
 
-}
+}*/
 
 /*
 NAVBAR =================================================
@@ -52,6 +52,9 @@ NAVBAR =================================================
     text-decoration: none;
     color: #f1f1f1;
 }
+.blocs-menu span a:hover {
+    color: coral;
+}
 
 .blocs-menu span::after {
     content: '';
@@ -66,6 +69,7 @@ NAVBAR =================================================
 
 .blocs-menu span:hover::after {
     width: 100%;
+    
 }
 
 /*---------- Portrait ----------*/
@@ -244,7 +248,7 @@ h1 {
     width: 200px;
     height: 50px;
     text-decoration: none;
-    background: #000;
+    background: #333;
     justify-content: center;
     align-items: center;
     color: #f1f1f1;
@@ -253,6 +257,10 @@ h1 {
     font-size: 18px;
     transition: transform 0.2s ease-in-out;
 }
+.btn-acc1:hover {
+    color: coral;
+}
+
 .btn-acc:hover {
     transform: scale(1.02);
 }

@@ -15,7 +15,7 @@ if($_POST){
 
   if(mail($destinataire,$subject,$body,$headers)) {
     $response['status'] = 'success';
-    $response['msg'] = 'your mail is sent';
+    $response['msg'] = 'your mail is send';
   } else {
     $response['status'] = 'error';
     $response['msg'] = 'Something went wrong';
