@@ -3,8 +3,10 @@
 
 
 =======================================================================
-=                PORTFOLIO ENTIEREMENT RESPONSIVE                     =
+
 =======================================================================
+                PORTFOLIO ENTIEREMENT RESPONSIVE 
+                
 
 À travers ce projet de Portfolio, j'ai :
 
@@ -17,5 +19,6 @@ Utiliser CSS Grid pour faire une grille.
 Animer les éléments avec TypeWriter, Greensock et ScrollMagic.
 
 HTML / CSS / JavaScript.
+
 
 Un peu de PHP pour le formulaire de Contact et JQUERY pour les animations !
