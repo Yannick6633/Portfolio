@@ -466,8 +466,8 @@ PRESENTATION ===============================================
     color: #e7e7e7;
 }
 .fond-forme {
-    background: #485563;
-    background-image: linear-gradient(to right, #29323c, #485563); /* Pour faire un fond avec dégradé de couleur */
+    background: #333;
+    background-image: linear-gradient(to right, #333, #485563); /* Pour faire un fond avec dégradé de couleur */
     width: 2300px;
     height: 1000px;
     position: absolute;
@@ -528,6 +528,10 @@ PRESENTATION ===============================================
 .txt-liste {
     font-size: 27px;
     display: inline;
+}
+
+a {
+    color: #f1f1f1;
 }
 
 /* Medias Presentation */
@@ -706,7 +710,7 @@ MES REALISATIONS =======================================================
         padding: 30px 0;
     }
     .item {
-        height: 420px;
+        height: auto;
     }
     .cont-img-port {
         height: auto;
@@ -735,7 +739,7 @@ SECTION RANGE
     padding-bottom: 200px;
     border-bottom: 1px dashed #333;
     background: #485563;
-    background-image: linear-gradient(to right, #29323c, #485563); /* Pour faire un fond avec dégradé de couleur */
+    background-image: linear-gradient(to right, #333, #485563); /* Pour faire un fond avec dégradé de couleur */
     color: #f1f1f1;
     position: relative;
     z-index: -1;
@@ -780,28 +784,28 @@ SECTION RANGE
 }
 
 .b1 {
-    width: 90%;
+    width: 80%;
 }
 
 .b2 {
-    width: 90%;
-    background: rgb(243, 237, 146); /* Couleur pour % */
+    width: 80%;
+    /*background: rgb(243, 237, 146); /* Couleur pour % */
 }
 
 .b3 {
-    width: 90%;
+    width: 20%;
 }
 
 .b4 {
-    width: 90%;
+    width: 20%;
 }
 
 .b5 {
-    width: 90%;
+    width: 20%;
 }
 
 .b6 {
-    width: 90%;
+    width: 50%;
 }
 
 .label-skill {
