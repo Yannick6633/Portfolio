@@ -1054,12 +1054,29 @@ textarea:focus {
 
 /* ---------- Footer --------- */
 
+.socialcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.sociallink {
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+}
+
 footer {
     width: 100%;
     text-align: center;
     padding-top: 100px;
     padding-left: 300px;
 }
+
 @media screen and (max-width: 1300px) {
     footer {
         padding-left: 0px;

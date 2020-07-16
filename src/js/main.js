@@ -238,6 +238,6 @@ $('#send_email').click(function(e){
 
 // ToolTip
 
-$(document).ready(function() {
+/*$(document).ready(function() {
     $('.tooltip').tooltipster();
-});
+});*/
